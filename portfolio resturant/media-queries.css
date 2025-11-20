@@ -1,0 +1,585 @@
+/* ===== MEDIA QUERIES ===== */
+
+/* Large Tablets & Small Desktops (1024px and below) */
+@media (max-width: 1024px) {
+    .hero {
+        margin-left: 50px;
+    }
+
+    .hero-text h1 {
+        font-size: 100px;
+    }
+
+    .box1 {
+        width: 400px;
+        height: 380px;
+    }
+
+    /* Page 2 */
+    .page2 {
+        padding: 150px 3% 80px;
+    }
+
+    .page2-side1 {
+        gap: 50px;
+        padding: 0 3%;
+    }
+
+    .circle div {
+        width: 450px;
+        height: 450px;
+    }
+
+    .text h2 {
+        font-size: 56px;
+        width: 100%;
+    }
+
+    .text p {
+        font-size: 17px;
+    }
+
+    /* Page 3 */
+    .top-side h2 {
+        font-size: 3em;
+    }
+
+    .top-side p {
+        width: 70%;
+        padding: 10px 40px;
+    }
+
+    .stat {
+        width: 180px;
+        height: 180px;
+    }
+
+    .stat h2 {
+        font-size: 35px;
+    }
+
+    .stat h3 {
+        font-size: 40px;
+    }
+
+    /* Page 4 */
+    .page4 {
+        padding: 150px 3% 80px;
+    }
+
+    .page4-side1 {
+        gap: 50px;
+        padding: 0 3%;
+    }
+
+    .page4 .text h2 {
+        font-size: 56px;
+        width: 100%;
+    }
+
+    .page4 .text p {
+        font-size: 17px;
+    }
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    header {
+        flex-wrap: wrap;
+        padding: 20px 3%;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #logo {
+        font-size: 26px;
+    }
+
+    .navber ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navber ul li a {
+        font-size: 16px;
+        padding: 5px 12px;
+    }
+
+    .cta button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+        padding: 20px;
+        min-height: 70vh;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 70px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-image img {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+
+    .page1 {
+        padding: 80px 3% 180px;
+    }
+
+    .box {
+        gap: 25px;
+    }
+
+    .box1 {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 350px;
+    }
+
+    .custom-shape-divider-bottom-1763554699 svg {
+        height: 100px;
+    }
+
+    .page2 h2 {
+        font-size: 30px;
+    }
+
+    /* Page 2 */
+    .page2 {
+        padding: 120px 3% 60px;
+    }
+
+    .page2-side1 {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .circle {
+        min-height: 400px;
+    }
+
+    .circle div {
+        width: 350px;
+        height: 350px;
+    }
+
+    .text {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 42px;
+        width: 100%;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    /* Page 3 */
+    .page3 {
+        padding: 80px 3%;
+    }
+
+    .top-side {
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .top-side h2 {
+        font-size: 2.5em;
+    }
+
+    .top-side p {
+        width: 90%;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .bottom-side {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+        padding: 30px 3%;
+    }
+
+    .stat {
+        width: 160px;
+        height: 160px;
+    }
+
+    .stat h2 {
+        font-size: 30px;
+    }
+
+    .stat h3 {
+        font-size: 35px;
+    }
+
+    /* Page 4 */
+    .page4 {
+        padding: 120px 3% 60px;
+    }
+
+    .page4-side1 {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 0;
+    }
+
+    .page4 .text {
+        text-align: center;
+    }
+
+    .page4 .text h2 {
+        font-size: 42px;
+        width: 100%;
+    }
+
+    .page4 .text p {
+        font-size: 16px;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    header {
+        padding: 15px 5%;
+    }
+
+    #logo {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navber {
+        width: 100%;
+    }
+
+    .navber ul {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .navber ul li a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .cta {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta button {
+        font-size: 15px;
+        padding: 8px 20px;
+    }
+
+    .hero {
+        min-height: 60vh;
+        padding: 15px;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .hero-text button {
+        padding: 12px 25px;
+        font-size: 16px;
+    }
+
+    .hero-image img {
+        max-width: 250px;
+        margin-top: 20px;
+    }
+
+    .page1 {
+        padding: 60px 5% 150px;
+    }
+
+    .box {
+        gap: 20px;
+    }
+
+    .box1 {
+        width: 100%;
+        padding: 25px;
+        min-height: 320px;
+    }
+
+    .box1 img {
+        height: 180px;
+    }
+
+    .box1 h2 {
+        font-size: 20px;
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .custom-shape-divider-bottom-1763554699 svg {
+        height: 80px;
+    }
+
+    .page2 h2 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .page2 p {
+        font-size: 15px;
+    }
+
+    /* Page 2 */
+    .page2 {
+        padding: 80px 5% 50px;
+    }
+
+    .page2-side1 {
+        gap: 30px;
+    }
+
+    .circle {
+        min-height: 300px;
+    }
+
+    .circle div {
+        width: 280px;
+        height: 280px;
+    }
+
+    .text {
+        padding: 20px 10px;
+    }
+
+    .text h2 {
+        font-size: 32px;
+    }
+
+    .text p {
+        font-size: 15px;
+    }
+
+    /* Page 3 */
+    .page3 {
+        padding: 60px 5%;
+    }
+
+    .top-side {
+        margin-bottom: 20px;
+    }
+
+    .top-side h2 {
+        font-size: 2em;
+        padding: 10px 5px;
+    }
+
+    .top-side p {
+        width: 95%;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .bottom-side {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 20px 5%;
+    }
+
+    .stat {
+        width: 140px;
+        height: 140px;
+    }
+
+    .stat h2 {
+        font-size: 24px;
+    }
+
+    .stat h3 {
+        font-size: 28px;
+    }
+
+    /* Page 4 */
+    .page4 {
+        padding: 80px 5% 50px;
+    }
+
+    .page4-side1 {
+        gap: 30px;
+    }
+
+    .page4 .text h2 {
+        font-size: 32px;
+    }
+
+    .page4 .text p {
+        font-size: 15px;
+    }
+}
+
+/* Small Mobile Devices (360px and below) */
+@media (max-width: 360px) {
+    #logo {
+        font-size: 22px;
+    }
+
+    .navber ul li a {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-text button {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+
+    .box1 {
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .box1 img {
+        height: 150px;
+    }
+
+    .box1 h2 {
+        font-size: 18px;
+    }
+
+    .box1 p {
+        font-size: 13px;
+    }
+
+    .page2 h2 {
+        font-size: 24px;
+    }
+
+    /* Page 2 */
+    .circle div {
+        width: 240px;
+        height: 240px;
+    }
+
+    .text h2 {
+        font-size: 28px;
+    }
+
+    .text p {
+        font-size: 14px;
+    }
+
+    /* Page 3 */
+    .top-side h2 {
+        font-size: 1.8em;
+    }
+
+    .top-side p {
+        font-size: 13px;
+    }
+
+    .stat {
+        width: 120px;
+        height: 120px;
+    }
+
+    .stat h2 {
+        font-size: 20px;
+    }
+
+    .stat h3 {
+        font-size: 24px;
+    }
+
+    /* Page 4 */
+    .page4 .text h2 {
+        font-size: 28px;
+    }
+
+    .page4 .text p {
+        font-size: 14px;
+    }
+}
+
+/* Landscape Orientation for Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .hero {
+        min-height: auto;
+        padding: 30px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 50px;
+    }
+
+    .hero-image img {
+        max-width: 200px;
+    }
+
+    .page1 {
+        padding: 60px 3% 150px;
+    }
+}
+
+/* Extra Large Screens (1440px and above) */
+@media (min-width: 1440px) {
+    header {
+        padding: 30px 8%;
+    }
+
+    .hero {
+        margin-left: 150px;
+    }
+
+    .hero-text h1 {
+        font-size: 150px;
+    }
+
+    .box1 {
+        width: 480px;
+        height: 420px;
+    }
+
+    .page1,
+    .page2 {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
