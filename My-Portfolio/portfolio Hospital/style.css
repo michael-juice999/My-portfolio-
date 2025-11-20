@@ -1,0 +1,179 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+body,
+p,
+a,
+button {
+    font-family: 'Lato', sans-serif;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+}
+
+#logo{
+    cursor: pointer;
+}
+
+.navber ul li{
+    display: inline-block;
+    margin: auto 25px;
+    list-style: none;
+}
+
+.navber .nav1{
+    color: linear-gradient(to left, rgb(0, 225, 255), rgb(0, 140, 255));
+}
+
+.navber ul li a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    padding: 5px 10px;
+    /* background-color: rgba(0, 204, 255, 0.103); */
+    border-radius: 15px;
+    transition: all 0.1s ease-in;
+}
+
+.navber ul li a:hover{
+    transform: scale(1.1);
+    background-color: rgb(0, 217, 255);
+    /* color: white; */
+}
+
+.navber a button{
+    font-size: 1.3em;
+    padding: 5px 15px;
+    margin-left: 50px;
+    background: linear-gradient(to left ,rgb(0, 225, 255),rgb(0, 140, 255));
+    border: 2px solid rgb(0, 225, 255);   
+}
+
+/* hero */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-side1{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hero-side1 h1, h2, p, button{
+    margin-left: 50px;
+}
+
+.hero-side1 h1{
+    font-size: 3.5em;
+    margin-bottom: 20px;
+}
+
+.hero-side1 h2{
+    font-size: 2em;
+    margin-bottom: 20px;
+}   
+
+.hero-side1 p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    width: 70%;
+    line-height: 1.5em;
+}
+
+.hero-side1 button{
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background: linear-gradient(to left ,rgb(0, 225, 255),rgb(0, 140, 255));
+    border: 2px solid rgb(0, 225, 255);   
+    cursor: pointer;
+}
+
+
+/* hero-side2 */
+
+.hero-side2{
+    width: 50%;
+    height: 100vh;
+}
+
+
+/* page1 */
+.Page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #28ddf5;
+    position: relative;
+}
+
+.custom-shape-divider-top-1763652365 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill: #ffffff;
+}
+
+/* page2 */
+.Page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.custom-shape-divider-bottom-1763653270 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1763653270 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 112px;
+}
+
+.custom-shape-divider-bottom-1763653270 .shape-fill {
+    fill: #FFFFFF;
+}
